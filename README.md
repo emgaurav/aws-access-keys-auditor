@@ -30,6 +30,6 @@ This Python script audits AWS IAM users' access keys across an AWS account. It i
    export AWS_SECRET_ACCESS_KEY="your_secret_access_key"
    export AWS_SESSION_TOKEN="your_session_token"  # Optional
 
-##Usage
+## Usage
 Simply run the script in your Python environment. Ensure that your AWS credentials are set in the environment variables before execution.
 
