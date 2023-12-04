@@ -9,6 +9,11 @@ It scans all keys against all users. Most scripts would check just the first acc
 - **Access Key Status Check**: Audits only active access keys.
 - **Usage Tracking**: Reports the number of days each active key has been unused.
 
+## Usage
+Simply run the script in your Python environment. Ensure that your AWS credentials are set in the environment variables before execution.
+   - Use simpleauditor_IAM.py if you have IAM keys.  `python3 simpleauditor_IAM.py`
+   - Use simpleauditor_SSO.py if you have SSO credentials.  `python3 simpleauditor_SSO.py`
+
 ## Prerequisites
 - Python 3.x
 - Boto3 library
@@ -31,6 +36,4 @@ It scans all keys against all users. Most scripts would check just the first acc
    export AWS_SECRET_ACCESS_KEY="your_secret_access_key"
    export AWS_SESSION_TOKEN="your_session_token"  # Optional
 
-## Usage
-Simply run the script in your Python environment. Ensure that your AWS credentials are set in the environment variables before execution.
 
