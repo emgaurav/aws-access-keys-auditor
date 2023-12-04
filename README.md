@@ -2,6 +2,7 @@
 
 ## Overview
 This Python script audits AWS IAM users' access keys across an AWS account. It identifies active access keys that have not been used for more than 90 days. This helps in enhancing security by monitoring and managing credentials.
+It scans all keys against all users. Most scripts would check just the first access key. This one covers the case when one user has multiple access keys.
 
 ## Features
 - **Multithreading**: Utilizes Python threading for concurrent processing of multiple IAM users, improving performance.
